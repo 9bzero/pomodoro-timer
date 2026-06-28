@@ -1,22 +1,34 @@
-# pomodoro-timer
+# Pomodoro Timer
 
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+Productivity timer using the Pomodoro technique — 25 min focus, 5 min break, with session stats and progress tracking.
 
-> Productivity timer using the Pomodoro Technique with session tracking
+## The Pomodoro Technique
+
+1. Work focused for **25 minutes**
+2. Take a **5-minute** short break
+3. After 4 pomodoros, take a **15–30 minute** long break
 
 ## Features
-- ⏱️ 25/5/15 minute work & break intervals
-- 🔴 Animated circular progress ring
-- 📊 Session count & total focus time tracker
-- ⏸ Pause, resume & reset controls
 
-## Tech Stack
-`React 18` · `TypeScript` · `Vite` · `CSS Animations`
+- Configurable focus, short break, and long break durations
+- Session counter and daily goal tracker
+- Browser notification + audio alert on completion
+- Task input — attach a task name to each pomodoro
+- Session history with date and duration
+- Animated circular progress ring
+- Auto-start next session toggle
 
-## Quick Start
+## Stack
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?style=flat&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-61dafb?style=flat&logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-646cff?style=flat&logo=vite&logoColor=white)
+
+## Run locally
+
 ```bash
 npm install && npm run dev
 ```
 
-## License
-[MIT](LICENSE)
+---
+Made by [9bzero](https://github.com/9bzero)
